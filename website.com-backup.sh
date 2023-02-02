@@ -4,9 +4,8 @@ set -uo pipefail
 # -----------------------------
 # About website.com-backup.sh
 # -----------------------------
-# This simple script to backup a PHP/MySQL based website like Wordpress, even
-# on shared-hosting without root privileges. It creates a simple folder 
-# structure which allows for pruning (cleaning later on).
+# A simple script to backup a PHP/MySQL based website like Wordpress, even
+# on shared-hosting without root privileges.
 # 
 # Run with an optional comment (single-word-or-phrase-but-no-spaces):
 #   `./website.com-backup.sh SAVE-ME`
